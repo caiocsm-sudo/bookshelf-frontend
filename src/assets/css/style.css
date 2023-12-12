@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.default-btn {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  background-color: var(--secondary-green);
+  transition: var(--default-transition);
+}
+
+.default-btn:hover {
+  background-color: var(--hover-green);
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --primary-green: #86efac;
+  --hover-green: #74d397;
+  --secondary-green: #10b981;
+  --third-green: #065f46;
+
+  --primary-gray: #cbd5e1;
+  --hover-gray: #b3bcc7;
+  --secondary-gray: #64748b;
+  --third-gray: #0f172a;
+
+  --primary-blue: #818cf8;
+  --secondary-blue: #2563eb;
+  --third-blue: #1e3a8a;
+
+  --font-default: #dcfce7;
+  --font-dark: #020617;
+
+  --default-transition: all 150ms ease-in-out;
+}
