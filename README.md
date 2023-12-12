@@ -2,8 +2,8 @@
 
 > The official frontend for the backend sequelize + postgres project.
 
-It will be a project to practice and learn Vue.js in depth, and to implement
-Authentication in the backend and making changes in the frontend as well.
+It will be a project to practice and learn Vue.js in depth. To implement
+Authentication in the backend and make changes in the frontend as well.
 
 ## Project setup
 ```
